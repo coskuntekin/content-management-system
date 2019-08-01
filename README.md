@@ -1,4 +1,4 @@
-# Content Managment System With Ruby on Rails
+# Content Management System With Ruby on Rails
 
-### TODOS
+It's clone of [misty](https://github.com/ruby-rails-mustafa-akgul-oyyk-2019/misty)
 
