@@ -1,0 +1,37 @@
+<section class="d-grid-dashboard vh-100">
+  <%= render '/shared/sidebar' %>
+  <main role="main" class="main">
+    <section class="dashboard-head mb-2">    
+      <h2>
+        Overview
+      </h2>
+      <a href="/" class="h-self-end">
+        <%= image_tag 'https://secure.gravatar.com/avatar/2e9ed4a4f824520785e6562cfa37ac7d.png?d=retro&r=PG&s=50', class:'img-responsive radius-50' %>      
+      </a>
+    </section>
+    <section class="dashboard-cards">
+      <article class="card card-warning text-center">
+        <h1>
+          <%= @posts.count %>
+          <small>
+            ARTICLES
+          </small>
+        </h1>
+        <h4>
+          PUBLISHED
+        </h4>
+      </article>
+      <article class="card card-brown text-center">
+        <h1>
+          <%= @comments.count %>
+          <small>
+            COMMENTS
+          </small>
+        </h1>
+        <h4>
+          WROTE
+        </h4>
+      </article>
+    </section>
+  </main>
+</section>
